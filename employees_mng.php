@@ -3,9 +3,6 @@
 <body>
 <h1>Sample page</h1>
 <?php
-  define('DB_SERVER', getenv('DB_SERVER'));
-  define('DB_USERNAME', getenv('DB_USERNAME'));
-  define('DB_PASSWORD', getenv('DB_PASSWORD'));
   /* Connect to MySQL and select the database. */
   $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
 
