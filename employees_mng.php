@@ -2,6 +2,7 @@
 <html>
 <body>
 <h1>Sample page</h1>
+<p> <?php echo ID_INSTANCE ?></p>
 <?php
   /* Connect to MySQL and select the database. */
   $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
