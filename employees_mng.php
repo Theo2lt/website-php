@@ -3,7 +3,7 @@
 <body>
 <h1>Sample page</h1>
 <p> <?php echo "ID_INSTANCE : ", ID_INSTANCE ?></p>
-<p> <?php echo "AVAILABILITY-ZONE : ", AVAILABILITY-ZONE ?></p>
+<p> <?php echo "AVAILABILITY-ZONE : ", AVAILABILITY_ZONE ?></p>
 <?php
   /* Connect to MySQL and select the database. */
   $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
